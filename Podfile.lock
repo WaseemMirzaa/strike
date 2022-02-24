@@ -1,0 +1,79 @@
+PODS:
+  - Alamofire (5.5.0)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Cosmos (23.0.0)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.5.9)
+  - LGSideMenuController (3.1.2)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ReachabilitySwift (5.0.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - ChameleonFramework/Swift
+  - Cosmos (~> 23.0)
+  - GoogleSignIn
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - LGSideMenuController
+  - NVActivityIndicatorView
+  - ReachabilitySwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AppAuth
+    - ChameleonFramework
+    - Cosmos
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - LGSideMenuController
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  LGSideMenuController: 0c7b155b0dbdf14bf8b88d5ac363c5fe1584bb23
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: aa0ab1aef30cb0893b8d3d7c8e6e76df309a3de7
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MazzardL-Black.otf</string>
+		<string>MazzardL-BlackItalic.otf</string>
+		<string>MazzardL-Bold.otf</string>
+		<string>MazzardL-ExtraBoldItalic.otf</string>
+		<string>MazzardL-ExtraLight.otf</string>
+		<string>MazzardL-ExtraLightItalic.otf</string>
+		<string>MazzardL-Italic.otf</string>
+		<string>MazzardL-Medium.otf</string>
+		<string>MazzardL-MediumItalic.otf</string>
+		<string>MazzardL-Regular.otf</string>
+		<string>MazzardL-SemiBold.otf</string>
+		<string>MazzardL-Thin.otf</string>
+	</array>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This lets you share photos from your library and save photos to your Camera Roll.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This lets you share photos from your library and save photos to your Camera Roll.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Your current location will be displayed on the map and nearby search results.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Your current location will be displayed on the map and nearby search results.</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Your current location will be displayed on the map and nearby search results.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Your current location will be displayed on the map and nearby search results.</string>
+</dict>
+</plist>

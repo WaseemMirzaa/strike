@@ -1,0 +1,6 @@
+framework module Pods_Strike {
+  umbrella header "Pods-Strike-umbrella.h"
+
+  export *
+  module * { export * }
+}
