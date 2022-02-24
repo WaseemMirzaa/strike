@@ -7,24 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041D441127C6755D00B3FE2A /* MazzardL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D43FF27C6755D00B3FE2A /* MazzardL-Light.otf */; };
-		041D441227C6755D00B3FE2A /* MazzardL-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440027C6755D00B3FE2A /* MazzardL-MediumItalic.otf */; };
-		041D441327C6755D00B3FE2A /* MazzardL-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440127C6755D00B3FE2A /* MazzardL-Medium.otf */; };
-		041D441427C6755D00B3FE2A /* MazzardL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440227C6755D00B3FE2A /* MazzardL-Thin.otf */; };
-		041D441527C6755D00B3FE2A /* MazzardL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440327C6755D00B3FE2A /* MazzardL-Bold.otf */; };
-		041D441627C6755D00B3FE2A /* MazzardL-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440427C6755D00B3FE2A /* MazzardL-ExtraBold.otf */; };
-		041D441727C6755D00B3FE2A /* MazzardL-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440527C6755D00B3FE2A /* MazzardL-SemiBold.otf */; };
-		041D441827C6755D00B3FE2A /* MazzardL-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440627C6755D00B3FE2A /* MazzardL-Italic.otf */; };
-		041D441927C6755D00B3FE2A /* MazzardL-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440727C6755D00B3FE2A /* MazzardL-ExtraLightItalic.otf */; };
-		041D441A27C6755D00B3FE2A /* MazzardL-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440827C6755D00B3FE2A /* MazzardL-ExtraBoldItalic.otf */; };
-		041D441B27C6755D00B3FE2A /* MazzardL-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440927C6755D00B3FE2A /* MazzardL-BlackItalic.otf */; };
-		041D441C27C6755D00B3FE2A /* MazzardL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440A27C6755D00B3FE2A /* MazzardL-ThinItalic.otf */; };
-		041D441D27C6755D00B3FE2A /* MazzardL-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440B27C6755D00B3FE2A /* MazzardL-ExtraLight.otf */; };
-		041D441E27C6755D00B3FE2A /* MazzardL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440C27C6755D00B3FE2A /* MazzardL-BoldItalic.otf */; };
-		041D441F27C6755D00B3FE2A /* MazzardL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440D27C6755D00B3FE2A /* MazzardL-LightItalic.otf */; };
-		041D442027C6755D00B3FE2A /* MazzardL-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440E27C6755D00B3FE2A /* MazzardL-SemiBoldItalic.otf */; };
-		041D442127C6755D00B3FE2A /* MazzardL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D440F27C6755D00B3FE2A /* MazzardL-Black.otf */; };
-		041D442227C6755D00B3FE2A /* MazzardL-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 041D441027C6755D00B3FE2A /* MazzardL-Regular.otf */; };
+		2BDB751266C007693EF1567F /* Pods_StrikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3ACB53851DB4F4C3015F420 /* Pods_StrikeTests.framework */; };
+		76026CA827C7B02F00C0947F /* discoverdetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76026CA727C7B02F00C0947F /* discoverdetailTableViewCell.swift */; };
+		76026CAA27C7B05E00C0947F /* discoverDtailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76026CA927C7B05E00C0947F /* discoverDtailViewController.swift */; };
+		76026CAF27C7B45600C0947F /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76026CAE27C7B45600C0947F /* HistoryViewController.swift */; };
+		76026CB127C7B49100C0947F /* historycellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76026CB027C7B49100C0947F /* historycellTableViewCell.swift */; };
+		76026CB327C7B4CF00C0947F /* WonHistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76026CB227C7B4CF00C0947F /* WonHistoryCollectionViewCell.swift */; };
 		766B59F027C62EFD00A72FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B59EF27C62EFD00A72FB9 /* AppDelegate.swift */; };
 		766B59F227C62EFD00A72FB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B59F127C62EFD00A72FB9 /* SceneDelegate.swift */; };
 		766B59F427C62EFD00A72FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B59F327C62EFD00A72FB9 /* ViewController.swift */; };
@@ -69,6 +57,31 @@
 		766B5AF627C64EB800A72FB9 /* AppStoryBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B5AD527C64EB800A72FB9 /* AppStoryBoard.swift */; };
 		766B5AF727C64EB800A72FB9 /* UITextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B5AD627C64EB800A72FB9 /* UITextView+Additions.swift */; };
 		766B5AFB27C6565500A72FB9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766B5AFA27C6565500A72FB9 /* SignUpViewController.swift */; };
+		76765A9527C679D400BD7E65 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76765A9427C679D400BD7E65 /* FilterViewController.swift */; };
+		76765A9827C67DD300BD7E65 /* ColorsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76765A9727C67DD300BD7E65 /* ColorsCollectionViewCell.swift */; };
+		76765A9A27C67DF200BD7E65 /* sizeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76765A9927C67DF200BD7E65 /* sizeCollectionViewCell.swift */; };
+		76765AAE27C686AB00BD7E65 /* MazzardL-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765A9C27C686AB00BD7E65 /* MazzardL-Light.otf */; };
+		76765AAF27C686AB00BD7E65 /* MazzardL-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765A9D27C686AB00BD7E65 /* MazzardL-MediumItalic.otf */; };
+		76765AB027C686AB00BD7E65 /* MazzardL-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765A9E27C686AB00BD7E65 /* MazzardL-Medium.otf */; };
+		76765AB127C686AB00BD7E65 /* MazzardL-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765A9F27C686AB00BD7E65 /* MazzardL-Thin.otf */; };
+		76765AB227C686AB00BD7E65 /* MazzardL-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA027C686AB00BD7E65 /* MazzardL-Bold.otf */; };
+		76765AB327C686AB00BD7E65 /* MazzardL-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA127C686AB00BD7E65 /* MazzardL-ExtraBold.otf */; };
+		76765AB427C686AB00BD7E65 /* MazzardL-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA227C686AB00BD7E65 /* MazzardL-SemiBold.otf */; };
+		76765AB527C686AB00BD7E65 /* MazzardL-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA327C686AB00BD7E65 /* MazzardL-Italic.otf */; };
+		76765AB627C686AB00BD7E65 /* MazzardL-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA427C686AB00BD7E65 /* MazzardL-ExtraLightItalic.otf */; };
+		76765AB727C686AB00BD7E65 /* MazzardL-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA527C686AB00BD7E65 /* MazzardL-ExtraBoldItalic.otf */; };
+		76765AB827C686AB00BD7E65 /* MazzardL-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA627C686AB00BD7E65 /* MazzardL-BlackItalic.otf */; };
+		76765AB927C686AB00BD7E65 /* MazzardL-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA727C686AB00BD7E65 /* MazzardL-ThinItalic.otf */; };
+		76765ABA27C686AB00BD7E65 /* MazzardL-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA827C686AB00BD7E65 /* MazzardL-ExtraLight.otf */; };
+		76765ABB27C686AB00BD7E65 /* MazzardL-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AA927C686AB00BD7E65 /* MazzardL-BoldItalic.otf */; };
+		76765ABC27C686AB00BD7E65 /* MazzardL-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AAA27C686AB00BD7E65 /* MazzardL-LightItalic.otf */; };
+		76765ABD27C686AB00BD7E65 /* MazzardL-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AAB27C686AB00BD7E65 /* MazzardL-SemiBoldItalic.otf */; };
+		76765ABE27C686AB00BD7E65 /* MazzardL-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AAC27C686AB00BD7E65 /* MazzardL-Black.otf */; };
+		76765ABF27C686AB00BD7E65 /* MazzardL-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76765AAD27C686AB00BD7E65 /* MazzardL-Regular.otf */; };
+		76765AC327C68E7B00BD7E65 /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76765AC227C68E7B00BD7E65 /* ContestViewController.swift */; };
+		76DBA5C827C77F53006E6F8E /* JoinContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBA5C727C77F53006E6F8E /* JoinContestViewController.swift */; };
+		76DBA5CB27C78791006E6F8E /* BuyticketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBA5CA27C78791006E6F8E /* BuyticketViewController.swift */; };
+		76DBA5CE27C789FE006E6F8E /* AddMoreCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DBA5CD27C789FE006E6F8E /* AddMoreCardViewController.swift */; };
 		76E30E4727C668DB00A622CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E30E4627C668DB00A622CB /* HomeViewController.swift */; };
 		76E30E4927C6693400A622CB /* homesearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E30E4827C6693400A622CB /* homesearchTableViewCell.swift */; };
 		76E30E4B27C6696C00A622CB /* homeCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E30E4A27C6696C00A622CB /* homeCollectionTableViewCell.swift */; };
@@ -76,15 +89,17 @@
 		76E30E4F27C669C500A622CB /* homeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E30E4E27C669C500A622CB /* homeCollectionViewCell.swift */; };
 		76E30E5127C66A8800A622CB /* homeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76E30E5027C66A8800A622CB /* homeHeader.xib */; };
 		76E30E5327C66B2B00A622CB /* homeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E30E5227C66B2B00A622CB /* homeHeader.swift */; };
+		76E698E627C78F300075FD18 /* QuizGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698E527C78F300075FD18 /* QuizGameViewController.swift */; };
+		76E698E827C791220075FD18 /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698E727C791220075FD18 /* QuestionsTableViewCell.swift */; };
+		76E698EA27C7915A0075FD18 /* answerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698E927C7915A0075FD18 /* answerTableViewCell.swift */; };
+		76E698EF27C79DA80075FD18 /* discoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698EE27C79DA80075FD18 /* discoverViewController.swift */; };
+		76E698F127C79E430075FD18 /* discoverColectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698F027C79E430075FD18 /* discoverColectionTableViewCell.swift */; };
+		76E698F327C79EA20075FD18 /* upcommingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698F227C79EA20075FD18 /* upcommingCollectionViewCell.swift */; };
+		76E698F827C7A3D30075FD18 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698F727C7A3D30075FD18 /* SideMenuViewController.swift */; };
+		76E698FB27C7A59C0075FD18 /* sideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698FA27C7A59C0075FD18 /* sideMenuTableViewCell.swift */; };
+		76E698FD27C7A5DC0075FD18 /* EmptyvieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E698FC27C7A5DC0075FD18 /* EmptyvieTableViewCell.swift */; };
 		A2308E25AE232174D2BC64B3 /* Pods_Strike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E09147068DCFEBB62D4D15D /* Pods_Strike.framework */; };
-		CE40A82527C79AC900614915 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40A82427C79AC900614915 /* SupportVC.swift */; };
-		CE40A82927C7B1AE00614915 /* Vector@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE40A82627C7B1AE00614915 /* Vector@2x.png */; };
-		CE40A82A27C7B1AE00614915 /* Vector@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE40A82727C7B1AE00614915 /* Vector@3x.png */; };
-		CE40A82B27C7B1AE00614915 /* Vector.png in Resources */ = {isa = PBXBuildFile; fileRef = CE40A82827C7B1AE00614915 /* Vector.png */; };
-		CE80D9B627C68740001D98AB /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80D9B527C68740001D98AB /* HistoryVC.swift */; };
-		CE80D9B927C6877E001D98AB /* WonHostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80D9B827C6877E001D98AB /* WonHostVC.swift */; };
-		CE80D9BC27C68C23001D98AB /* ReceiveNotificationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80D9BB27C68C23001D98AB /* ReceiveNotificationsVC.swift */; };
-		CE80D9BF27C69762001D98AB /* FeedBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80D9BE27C69762001D98AB /* FeedBackVC.swift */; };
+		A25E8590A256212E5E359B0E /* Pods_Strike_StrikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3330D20C2C7A0135F4B93A86 /* Pods_Strike_StrikeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,25 +120,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041D43FF27C6755D00B3FE2A /* MazzardL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Light.otf"; sourceTree = "<group>"; };
-		041D440027C6755D00B3FE2A /* MazzardL-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-MediumItalic.otf"; sourceTree = "<group>"; };
-		041D440127C6755D00B3FE2A /* MazzardL-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Medium.otf"; sourceTree = "<group>"; };
-		041D440227C6755D00B3FE2A /* MazzardL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Thin.otf"; sourceTree = "<group>"; };
-		041D440327C6755D00B3FE2A /* MazzardL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Bold.otf"; sourceTree = "<group>"; };
-		041D440427C6755D00B3FE2A /* MazzardL-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraBold.otf"; sourceTree = "<group>"; };
-		041D440527C6755D00B3FE2A /* MazzardL-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-SemiBold.otf"; sourceTree = "<group>"; };
-		041D440627C6755D00B3FE2A /* MazzardL-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Italic.otf"; sourceTree = "<group>"; };
-		041D440727C6755D00B3FE2A /* MazzardL-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraLightItalic.otf"; sourceTree = "<group>"; };
-		041D440827C6755D00B3FE2A /* MazzardL-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
-		041D440927C6755D00B3FE2A /* MazzardL-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-BlackItalic.otf"; sourceTree = "<group>"; };
-		041D440A27C6755D00B3FE2A /* MazzardL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ThinItalic.otf"; sourceTree = "<group>"; };
-		041D440B27C6755D00B3FE2A /* MazzardL-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraLight.otf"; sourceTree = "<group>"; };
-		041D440C27C6755D00B3FE2A /* MazzardL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-BoldItalic.otf"; sourceTree = "<group>"; };
-		041D440D27C6755D00B3FE2A /* MazzardL-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-LightItalic.otf"; sourceTree = "<group>"; };
-		041D440E27C6755D00B3FE2A /* MazzardL-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-SemiBoldItalic.otf"; sourceTree = "<group>"; };
-		041D440F27C6755D00B3FE2A /* MazzardL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Black.otf"; sourceTree = "<group>"; };
-		041D441027C6755D00B3FE2A /* MazzardL-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Regular.otf"; sourceTree = "<group>"; };
 		0E09147068DCFEBB62D4D15D /* Pods_Strike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14EC87175846F087BB570A03 /* Pods-Strike-StrikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strike-StrikeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Strike-StrikeUITests/Pods-Strike-StrikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		25B96CBAA4603636327029D2 /* Pods-Strike-StrikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strike-StrikeUITests.release.xcconfig"; path = "Target Support Files/Pods-Strike-StrikeUITests/Pods-Strike-StrikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3330D20C2C7A0135F4B93A86 /* Pods_Strike_StrikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Strike_StrikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3571E6589C1B8CACB103B8ED /* Pods-StrikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrikeTests.release.xcconfig"; path = "Target Support Files/Pods-StrikeTests/Pods-StrikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F6E3D8D0D2B6BFB6CA81C16 /* Pods-StrikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrikeTests.debug.xcconfig"; path = "Target Support Files/Pods-StrikeTests/Pods-StrikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76026CA727C7B02F00C0947F /* discoverdetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverdetailTableViewCell.swift; sourceTree = "<group>"; };
+		76026CA927C7B05E00C0947F /* discoverDtailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverDtailViewController.swift; sourceTree = "<group>"; };
+		76026CAE27C7B45600C0947F /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		76026CB027C7B49100C0947F /* historycellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = historycellTableViewCell.swift; sourceTree = "<group>"; };
+		76026CB227C7B4CF00C0947F /* WonHistoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonHistoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		766B59EC27C62EFD00A72FB9 /* Strike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766B59EF27C62EFD00A72FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		766B59F127C62EFD00A72FB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +179,31 @@
 		766B5AD527C64EB800A72FB9 /* AppStoryBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryBoard.swift; sourceTree = "<group>"; };
 		766B5AD627C64EB800A72FB9 /* UITextView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Additions.swift"; sourceTree = "<group>"; };
 		766B5AFA27C6565500A72FB9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		76765A9427C679D400BD7E65 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		76765A9727C67DD300BD7E65 /* ColorsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsCollectionViewCell.swift; sourceTree = "<group>"; };
+		76765A9927C67DF200BD7E65 /* sizeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sizeCollectionViewCell.swift; sourceTree = "<group>"; };
+		76765A9C27C686AB00BD7E65 /* MazzardL-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Light.otf"; sourceTree = "<group>"; };
+		76765A9D27C686AB00BD7E65 /* MazzardL-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-MediumItalic.otf"; sourceTree = "<group>"; };
+		76765A9E27C686AB00BD7E65 /* MazzardL-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Medium.otf"; sourceTree = "<group>"; };
+		76765A9F27C686AB00BD7E65 /* MazzardL-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Thin.otf"; sourceTree = "<group>"; };
+		76765AA027C686AB00BD7E65 /* MazzardL-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Bold.otf"; sourceTree = "<group>"; };
+		76765AA127C686AB00BD7E65 /* MazzardL-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraBold.otf"; sourceTree = "<group>"; };
+		76765AA227C686AB00BD7E65 /* MazzardL-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-SemiBold.otf"; sourceTree = "<group>"; };
+		76765AA327C686AB00BD7E65 /* MazzardL-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Italic.otf"; sourceTree = "<group>"; };
+		76765AA427C686AB00BD7E65 /* MazzardL-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		76765AA527C686AB00BD7E65 /* MazzardL-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		76765AA627C686AB00BD7E65 /* MazzardL-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-BlackItalic.otf"; sourceTree = "<group>"; };
+		76765AA727C686AB00BD7E65 /* MazzardL-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ThinItalic.otf"; sourceTree = "<group>"; };
+		76765AA827C686AB00BD7E65 /* MazzardL-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-ExtraLight.otf"; sourceTree = "<group>"; };
+		76765AA927C686AB00BD7E65 /* MazzardL-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-BoldItalic.otf"; sourceTree = "<group>"; };
+		76765AAA27C686AB00BD7E65 /* MazzardL-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-LightItalic.otf"; sourceTree = "<group>"; };
+		76765AAB27C686AB00BD7E65 /* MazzardL-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		76765AAC27C686AB00BD7E65 /* MazzardL-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Black.otf"; sourceTree = "<group>"; };
+		76765AAD27C686AB00BD7E65 /* MazzardL-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MazzardL-Regular.otf"; sourceTree = "<group>"; };
+		76765AC227C68E7B00BD7E65 /* ContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContestViewController.swift; sourceTree = "<group>"; };
+		76DBA5C727C77F53006E6F8E /* JoinContestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinContestViewController.swift; sourceTree = "<group>"; };
+		76DBA5CA27C78791006E6F8E /* BuyticketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyticketViewController.swift; sourceTree = "<group>"; };
+		76DBA5CD27C789FE006E6F8E /* AddMoreCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMoreCardViewController.swift; sourceTree = "<group>"; };
 		76E30E4627C668DB00A622CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		76E30E4827C6693400A622CB /* homesearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homesearchTableViewCell.swift; sourceTree = "<group>"; };
 		76E30E4A27C6696C00A622CB /* homeCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCollectionTableViewCell.swift; sourceTree = "<group>"; };
@@ -179,15 +211,17 @@
 		76E30E4E27C669C500A622CB /* homeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeCollectionViewCell.swift; sourceTree = "<group>"; };
 		76E30E5027C66A8800A622CB /* homeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = homeHeader.xib; sourceTree = "<group>"; };
 		76E30E5227C66B2B00A622CB /* homeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeHeader.swift; sourceTree = "<group>"; };
+		76E698E527C78F300075FD18 /* QuizGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGameViewController.swift; sourceTree = "<group>"; };
+		76E698E727C791220075FD18 /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		76E698E927C7915A0075FD18 /* answerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = answerTableViewCell.swift; sourceTree = "<group>"; };
+		76E698EE27C79DA80075FD18 /* discoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverViewController.swift; sourceTree = "<group>"; };
+		76E698F027C79E430075FD18 /* discoverColectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoverColectionTableViewCell.swift; sourceTree = "<group>"; };
+		76E698F227C79EA20075FD18 /* upcommingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upcommingCollectionViewCell.swift; sourceTree = "<group>"; };
+		76E698F727C7A3D30075FD18 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		76E698FA27C7A59C0075FD18 /* sideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		76E698FC27C7A5DC0075FD18 /* EmptyvieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyvieTableViewCell.swift; sourceTree = "<group>"; };
 		A06B1AFAD12D5440FF044974 /* Pods-Strike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strike.release.xcconfig"; path = "Target Support Files/Pods-Strike/Pods-Strike.release.xcconfig"; sourceTree = "<group>"; };
-		CE40A82427C79AC900614915 /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
-		CE40A82627C7B1AE00614915 /* Vector@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vector@2x.png"; sourceTree = "<group>"; };
-		CE40A82727C7B1AE00614915 /* Vector@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vector@3x.png"; sourceTree = "<group>"; };
-		CE40A82827C7B1AE00614915 /* Vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector.png; sourceTree = "<group>"; };
-		CE80D9B527C68740001D98AB /* HistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
-		CE80D9B827C6877E001D98AB /* WonHostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WonHostVC.swift; sourceTree = "<group>"; };
-		CE80D9BB27C68C23001D98AB /* ReceiveNotificationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveNotificationsVC.swift; sourceTree = "<group>"; };
-		CE80D9BE27C69762001D98AB /* FeedBackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackVC.swift; sourceTree = "<group>"; };
+		C3ACB53851DB4F4C3015F420 /* Pods_StrikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35DEA2E280ABE4B7C714130 /* Pods-Strike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strike.debug.xcconfig"; path = "Target Support Files/Pods-Strike/Pods-Strike.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -204,6 +238,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDB751266C007693EF1567F /* Pods_StrikeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,42 +246,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A25E8590A256212E5E359B0E /* Pods_Strike_StrikeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		041D43FE27C6755D00B3FE2A /* Mazzard */ = {
-			isa = PBXGroup;
-			children = (
-				041D43FF27C6755D00B3FE2A /* MazzardL-Light.otf */,
-				041D440027C6755D00B3FE2A /* MazzardL-MediumItalic.otf */,
-				041D440127C6755D00B3FE2A /* MazzardL-Medium.otf */,
-				041D440227C6755D00B3FE2A /* MazzardL-Thin.otf */,
-				041D440327C6755D00B3FE2A /* MazzardL-Bold.otf */,
-				041D440427C6755D00B3FE2A /* MazzardL-ExtraBold.otf */,
-				041D440527C6755D00B3FE2A /* MazzardL-SemiBold.otf */,
-				041D440627C6755D00B3FE2A /* MazzardL-Italic.otf */,
-				041D440727C6755D00B3FE2A /* MazzardL-ExtraLightItalic.otf */,
-				041D440827C6755D00B3FE2A /* MazzardL-ExtraBoldItalic.otf */,
-				041D440927C6755D00B3FE2A /* MazzardL-BlackItalic.otf */,
-				041D440A27C6755D00B3FE2A /* MazzardL-ThinItalic.otf */,
-				041D440B27C6755D00B3FE2A /* MazzardL-ExtraLight.otf */,
-				041D440C27C6755D00B3FE2A /* MazzardL-BoldItalic.otf */,
-				041D440D27C6755D00B3FE2A /* MazzardL-LightItalic.otf */,
-				041D440E27C6755D00B3FE2A /* MazzardL-SemiBoldItalic.otf */,
-				041D440F27C6755D00B3FE2A /* MazzardL-Black.otf */,
-				041D441027C6755D00B3FE2A /* MazzardL-Regular.otf */,
-			);
-			path = Mazzard;
-			sourceTree = "<group>";
-		};
 		1FBA4B49982E9AED2F851120 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				E35DEA2E280ABE4B7C714130 /* Pods-Strike.debug.xcconfig */,
 				A06B1AFAD12D5440FF044974 /* Pods-Strike.release.xcconfig */,
+				14EC87175846F087BB570A03 /* Pods-Strike-StrikeUITests.debug.xcconfig */,
+				25B96CBAA4603636327029D2 /* Pods-Strike-StrikeUITests.release.xcconfig */,
+				4F6E3D8D0D2B6BFB6CA81C16 /* Pods-StrikeTests.debug.xcconfig */,
+				3571E6589C1B8CACB103B8ED /* Pods-StrikeTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -255,8 +270,61 @@
 			isa = PBXGroup;
 			children = (
 				0E09147068DCFEBB62D4D15D /* Pods_Strike.framework */,
+				3330D20C2C7A0135F4B93A86 /* Pods_Strike_StrikeUITests.framework */,
+				C3ACB53851DB4F4C3015F420 /* Pods_StrikeTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76026CA427C7B01700C0947F /* DiscoverDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				76026CA627C7B02200C0947F /* controller */,
+				76026CA527C7B01E00C0947F /* View */,
+			);
+			path = DiscoverDetailVC;
+			sourceTree = "<group>";
+		};
+		76026CA527C7B01E00C0947F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76026CA727C7B02F00C0947F /* discoverdetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76026CA627C7B02200C0947F /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				76026CA927C7B05E00C0947F /* discoverDtailViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		76026CAB27C7B43700C0947F /* HistoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				76026CAD27C7B44A00C0947F /* Controler */,
+				76026CAC27C7B44300C0947F /* View */,
+			);
+			path = HistoryVC;
+			sourceTree = "<group>";
+		};
+		76026CAC27C7B44300C0947F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76026CB027C7B49100C0947F /* historycellTableViewCell.swift */,
+				76026CB227C7B4CF00C0947F /* WonHistoryCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76026CAD27C7B44A00C0947F /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				76026CAE27C7B45600C0947F /* HistoryViewController.swift */,
+			);
+			path = Controler;
 			sourceTree = "<group>";
 		};
 		766B59E327C62EFD00A72FB9 = {
@@ -284,7 +352,7 @@
 		766B59EE27C62EFD00A72FB9 /* Strike */ = {
 			isa = PBXGroup;
 			children = (
-				041D43FE27C6755D00B3FE2A /* Mazzard */,
+				76765A9B27C686AB00BD7E65 /* Mazzard */,
 				766B5AC427C64EB800A72FB9 /* Delegates */,
 				766B5AC827C64EB800A72FB9 /* Extension */,
 				766B5AC027C64EB800A72FB9 /* Global */,
@@ -292,9 +360,6 @@
 				766B5AAD27C64DC900A72FB9 /* Controllers */,
 				766B59EF27C62EFD00A72FB9 /* AppDelegate.swift */,
 				766B59F127C62EFD00A72FB9 /* SceneDelegate.swift */,
-				CE40A82827C7B1AE00614915 /* Vector.png */,
-				CE40A82627C7B1AE00614915 /* Vector@2x.png */,
-				CE40A82727C7B1AE00614915 /* Vector@3x.png */,
 				766B59F327C62EFD00A72FB9 /* ViewController.swift */,
 				766B59F527C62EFD00A72FB9 /* Main.storyboard */,
 				766B59F827C62EFE00A72FB9 /* Assets.xcassets */,
@@ -324,12 +389,16 @@
 		766B5AAD27C64DC900A72FB9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE40A82327C79AB200614915 /* General */,
-				CE80D9C027C69C96001D98AB /* WonContests */,
-				CE80D9BD27C6974E001D98AB /* Feedback */,
-				CE80D9BA27C68C0A001D98AB /* Notifications */,
-				CE80D9B727C68764001D98AB /* WonHostVC */,
-				CE80D9B427C68720001D98AB /* HistoryVC */,
+				76026CAB27C7B43700C0947F /* HistoryVC */,
+				76026CA427C7B01700C0947F /* DiscoverDetailVC */,
+				76E698F427C7A3B10075FD18 /* SideMenuVC */,
+				76E698EB27C79D8C0075FD18 /* DiscoverVC */,
+				76E698E227C78F130075FD18 /* QuizGameVC */,
+				76DBA5CC27C789EA006E6F8E /* AddMoreCardVC */,
+				76DBA5C927C78774006E6F8E /* BuyticketVC */,
+				76DBA5C527C77F3E006E6F8E /* JoinContestVC */,
+				76765AC027C68E5B00BD7E65 /* ContestVC */,
+				76765A9227C679B000BD7E65 /* FilterVC */,
 				76E30E4227C668A500A622CB /* HomeVC */,
 				766B5AF827C6563F00A72FB9 /* SignUp */,
 				766B5AAE27C64DD000A72FB9 /* Login */,
@@ -430,6 +499,105 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		76765A9227C679B000BD7E65 /* FilterVC */ = {
+			isa = PBXGroup;
+			children = (
+				76765A9627C67DC800BD7E65 /* View */,
+				76765A9327C679BC00BD7E65 /* Controller */,
+			);
+			path = FilterVC;
+			sourceTree = "<group>";
+		};
+		76765A9327C679BC00BD7E65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76765A9427C679D400BD7E65 /* FilterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76765A9627C67DC800BD7E65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76765A9727C67DD300BD7E65 /* ColorsCollectionViewCell.swift */,
+				76765A9927C67DF200BD7E65 /* sizeCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76765A9B27C686AB00BD7E65 /* Mazzard */ = {
+			isa = PBXGroup;
+			children = (
+				76765A9C27C686AB00BD7E65 /* MazzardL-Light.otf */,
+				76765A9D27C686AB00BD7E65 /* MazzardL-MediumItalic.otf */,
+				76765A9E27C686AB00BD7E65 /* MazzardL-Medium.otf */,
+				76765A9F27C686AB00BD7E65 /* MazzardL-Thin.otf */,
+				76765AA027C686AB00BD7E65 /* MazzardL-Bold.otf */,
+				76765AA127C686AB00BD7E65 /* MazzardL-ExtraBold.otf */,
+				76765AA227C686AB00BD7E65 /* MazzardL-SemiBold.otf */,
+				76765AA327C686AB00BD7E65 /* MazzardL-Italic.otf */,
+				76765AA427C686AB00BD7E65 /* MazzardL-ExtraLightItalic.otf */,
+				76765AA527C686AB00BD7E65 /* MazzardL-ExtraBoldItalic.otf */,
+				76765AA627C686AB00BD7E65 /* MazzardL-BlackItalic.otf */,
+				76765AA727C686AB00BD7E65 /* MazzardL-ThinItalic.otf */,
+				76765AA827C686AB00BD7E65 /* MazzardL-ExtraLight.otf */,
+				76765AA927C686AB00BD7E65 /* MazzardL-BoldItalic.otf */,
+				76765AAA27C686AB00BD7E65 /* MazzardL-LightItalic.otf */,
+				76765AAB27C686AB00BD7E65 /* MazzardL-SemiBoldItalic.otf */,
+				76765AAC27C686AB00BD7E65 /* MazzardL-Black.otf */,
+				76765AAD27C686AB00BD7E65 /* MazzardL-Regular.otf */,
+			);
+			path = Mazzard;
+			sourceTree = "<group>";
+		};
+		76765AC027C68E5B00BD7E65 /* ContestVC */ = {
+			isa = PBXGroup;
+			children = (
+				76765AC127C68E6A00BD7E65 /* Controller */,
+			);
+			path = ContestVC;
+			sourceTree = "<group>";
+		};
+		76765AC127C68E6A00BD7E65 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76765AC227C68E7B00BD7E65 /* ContestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76DBA5C527C77F3E006E6F8E /* JoinContestVC */ = {
+			isa = PBXGroup;
+			children = (
+				76DBA5C627C77F48006E6F8E /* Controller */,
+			);
+			path = JoinContestVC;
+			sourceTree = "<group>";
+		};
+		76DBA5C627C77F48006E6F8E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76DBA5C727C77F53006E6F8E /* JoinContestViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76DBA5C927C78774006E6F8E /* BuyticketVC */ = {
+			isa = PBXGroup;
+			children = (
+				76DBA5CA27C78791006E6F8E /* BuyticketViewController.swift */,
+			);
+			path = BuyticketVC;
+			sourceTree = "<group>";
+		};
+		76DBA5CC27C789EA006E6F8E /* AddMoreCardVC */ = {
+			isa = PBXGroup;
+			children = (
+				76DBA5CD27C789FE006E6F8E /* AddMoreCardViewController.swift */,
+			);
+			path = AddMoreCardVC;
+			sourceTree = "<group>";
+		};
 		76E30E4227C668A500A622CB /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -468,51 +636,82 @@
 			path = HeaderView;
 			sourceTree = "<group>";
 		};
-		CE40A82327C79AB200614915 /* General */ = {
+		76E698E227C78F130075FD18 /* QuizGameVC */ = {
 			isa = PBXGroup;
 			children = (
-				CE40A82427C79AC900614915 /* SupportVC.swift */,
+				76E698E427C78F230075FD18 /* View */,
+				76E698E327C78F1D0075FD18 /* Controller */,
 			);
-			path = General;
+			path = QuizGameVC;
 			sourceTree = "<group>";
 		};
-		CE80D9B427C68720001D98AB /* HistoryVC */ = {
+		76E698E327C78F1D0075FD18 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CE80D9B527C68740001D98AB /* HistoryVC.swift */,
+				76E698E527C78F300075FD18 /* QuizGameViewController.swift */,
 			);
-			path = HistoryVC;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		CE80D9B727C68764001D98AB /* WonHostVC */ = {
+		76E698E427C78F230075FD18 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CE80D9B827C6877E001D98AB /* WonHostVC.swift */,
+				76E698E727C791220075FD18 /* QuestionsTableViewCell.swift */,
+				76E698E927C7915A0075FD18 /* answerTableViewCell.swift */,
 			);
-			path = WonHostVC;
+			path = View;
 			sourceTree = "<group>";
 		};
-		CE80D9BA27C68C0A001D98AB /* Notifications */ = {
+		76E698EB27C79D8C0075FD18 /* DiscoverVC */ = {
 			isa = PBXGroup;
 			children = (
-				CE80D9BB27C68C23001D98AB /* ReceiveNotificationsVC.swift */,
+				76E698ED27C79D970075FD18 /* Controller */,
+				76E698EC27C79D930075FD18 /* View */,
 			);
-			path = Notifications;
+			path = DiscoverVC;
 			sourceTree = "<group>";
 		};
-		CE80D9BD27C6974E001D98AB /* Feedback */ = {
+		76E698EC27C79D930075FD18 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CE80D9BE27C69762001D98AB /* FeedBackVC.swift */,
+				76E698F027C79E430075FD18 /* discoverColectionTableViewCell.swift */,
+				76E698F227C79EA20075FD18 /* upcommingCollectionViewCell.swift */,
 			);
-			path = Feedback;
+			path = View;
 			sourceTree = "<group>";
 		};
-		CE80D9C027C69C96001D98AB /* WonContests */ = {
+		76E698ED27C79D970075FD18 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				76E698EE27C79DA80075FD18 /* discoverViewController.swift */,
 			);
-			path = WonContests;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		76E698F427C7A3B10075FD18 /* SideMenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				76E698F627C7A3BE0075FD18 /* Controller */,
+				76E698F527C7A3BA0075FD18 /* View */,
+			);
+			path = SideMenuVC;
+			sourceTree = "<group>";
+		};
+		76E698F527C7A3BA0075FD18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				76E698FA27C7A59C0075FD18 /* sideMenuTableViewCell.swift */,
+				76E698FC27C7A5DC0075FD18 /* EmptyvieTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		76E698F627C7A3BE0075FD18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				76E698F727C7A3D30075FD18 /* SideMenuViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -541,6 +740,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766B5A1927C62EFE00A72FB9 /* Build configuration list for PBXNativeTarget "StrikeTests" */;
 			buildPhases = (
+				3282B94421303841CCD982F2 /* [CP] Check Pods Manifest.lock */,
 				766B59FE27C62EFE00A72FB9 /* Sources */,
 				766B59FF27C62EFE00A72FB9 /* Frameworks */,
 				766B5A0027C62EFE00A72FB9 /* Resources */,
@@ -559,9 +759,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766B5A1C27C62EFE00A72FB9 /* Build configuration list for PBXNativeTarget "StrikeUITests" */;
 			buildPhases = (
+				1943ED54A87C942E15407EEA /* [CP] Check Pods Manifest.lock */,
 				766B5A0827C62EFE00A72FB9 /* Sources */,
 				766B5A0927C62EFE00A72FB9 /* Frameworks */,
 				766B5A0A27C62EFE00A72FB9 /* Resources */,
+				2B118EA8520AD0525E5905B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -621,31 +823,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041D441627C6755D00B3FE2A /* MazzardL-ExtraBold.otf in Resources */,
-				041D441F27C6755D00B3FE2A /* MazzardL-LightItalic.otf in Resources */,
+				76765AB327C686AB00BD7E65 /* MazzardL-ExtraBold.otf in Resources */,
+				76765ABC27C686AB00BD7E65 /* MazzardL-LightItalic.otf in Resources */,
 				76E30E5127C66A8800A622CB /* homeHeader.xib in Resources */,
-				041D441827C6755D00B3FE2A /* MazzardL-Italic.otf in Resources */,
-				041D441527C6755D00B3FE2A /* MazzardL-Bold.otf in Resources */,
-				041D441127C6755D00B3FE2A /* MazzardL-Light.otf in Resources */,
-				041D441927C6755D00B3FE2A /* MazzardL-ExtraLightItalic.otf in Resources */,
+				76765AB527C686AB00BD7E65 /* MazzardL-Italic.otf in Resources */,
+				76765AB227C686AB00BD7E65 /* MazzardL-Bold.otf in Resources */,
+				76765AAE27C686AB00BD7E65 /* MazzardL-Light.otf in Resources */,
+				76765AB627C686AB00BD7E65 /* MazzardL-ExtraLightItalic.otf in Resources */,
 				766B59FC27C62EFE00A72FB9 /* LaunchScreen.storyboard in Resources */,
-				041D441727C6755D00B3FE2A /* MazzardL-SemiBold.otf in Resources */,
-				041D441B27C6755D00B3FE2A /* MazzardL-BlackItalic.otf in Resources */,
-				041D441C27C6755D00B3FE2A /* MazzardL-ThinItalic.otf in Resources */,
-				041D441A27C6755D00B3FE2A /* MazzardL-ExtraBoldItalic.otf in Resources */,
-				CE40A82B27C7B1AE00614915 /* Vector.png in Resources */,
-				041D441D27C6755D00B3FE2A /* MazzardL-ExtraLight.otf in Resources */,
-				041D441227C6755D00B3FE2A /* MazzardL-MediumItalic.otf in Resources */,
-				041D442127C6755D00B3FE2A /* MazzardL-Black.otf in Resources */,
-				041D441327C6755D00B3FE2A /* MazzardL-Medium.otf in Resources */,
-				041D441427C6755D00B3FE2A /* MazzardL-Thin.otf in Resources */,
-				CE40A82927C7B1AE00614915 /* Vector@2x.png in Resources */,
-				041D441E27C6755D00B3FE2A /* MazzardL-BoldItalic.otf in Resources */,
-				041D442027C6755D00B3FE2A /* MazzardL-SemiBoldItalic.otf in Resources */,
+				76765AB427C686AB00BD7E65 /* MazzardL-SemiBold.otf in Resources */,
+				76765AB827C686AB00BD7E65 /* MazzardL-BlackItalic.otf in Resources */,
+				76765AB927C686AB00BD7E65 /* MazzardL-ThinItalic.otf in Resources */,
+				76765AB727C686AB00BD7E65 /* MazzardL-ExtraBoldItalic.otf in Resources */,
+				76765ABA27C686AB00BD7E65 /* MazzardL-ExtraLight.otf in Resources */,
+				76765AAF27C686AB00BD7E65 /* MazzardL-MediumItalic.otf in Resources */,
+				76765ABE27C686AB00BD7E65 /* MazzardL-Black.otf in Resources */,
+				76765AB027C686AB00BD7E65 /* MazzardL-Medium.otf in Resources */,
+				76765AB127C686AB00BD7E65 /* MazzardL-Thin.otf in Resources */,
+				76765ABB27C686AB00BD7E65 /* MazzardL-BoldItalic.otf in Resources */,
+				76765ABD27C686AB00BD7E65 /* MazzardL-SemiBoldItalic.otf in Resources */,
 				766B59F927C62EFE00A72FB9 /* Assets.xcassets in Resources */,
 				766B59F727C62EFD00A72FB9 /* Main.storyboard in Resources */,
-				CE40A82A27C7B1AE00614915 /* Vector@3x.png in Resources */,
-				041D442227C6755D00B3FE2A /* MazzardL-Regular.otf in Resources */,
+				76765ABF27C686AB00BD7E65 /* MazzardL-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +865,67 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1943ED54A87C942E15407EEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Strike-StrikeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B118EA8520AD0525E5905B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strike-StrikeUITests/Pods-Strike-StrikeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Strike-StrikeUITests/Pods-Strike-StrikeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Strike-StrikeUITests/Pods-Strike-StrikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3282B94421303841CCD982F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrikeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		332A26AA0D20B6E502699EBF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -714,53 +974,69 @@
 			files = (
 				766B5AF527C64EB800A72FB9 /* Utility.swift in Sources */,
 				766B5ADA27C64EB800A72FB9 /* AlamofireHelper.swift in Sources */,
+				76026CAA27C7B05E00C0947F /* discoverDtailViewController.swift in Sources */,
 				766B5AB127C64DEB00A72FB9 /* LoginViewController.swift in Sources */,
 				766B5AE327C64EB800A72FB9 /* NetworkConnection.swift in Sources */,
 				766B5AEF27C64EB800A72FB9 /* UIButton+Additions.swift in Sources */,
 				766B5ADC27C64EB800A72FB9 /* PopupHelper.swift in Sources */,
-				CE40A82527C79AC900614915 /* SupportVC.swift in Sources */,
+				76E698F827C7A3D30075FD18 /* SideMenuViewController.swift in Sources */,
 				766B59F427C62EFD00A72FB9 /* ViewController.swift in Sources */,
+				76DBA5CE27C789FE006E6F8E /* AddMoreCardViewController.swift in Sources */,
 				766B5AE227C64EB800A72FB9 /* DataBaseHelper.swift in Sources */,
 				766B5ADE27C64EB800A72FB9 /* ValidationHelper.swift in Sources */,
-				CE80D9BF27C69762001D98AB /* FeedBackVC.swift in Sources */,
-				CE80D9BC27C68C23001D98AB /* ReceiveNotificationsVC.swift in Sources */,
 				766B5AE127C64EB800A72FB9 /* NVActivityIndicatorViewable.swift in Sources */,
+				76E698FD27C7A5DC0075FD18 /* EmptyvieTableViewCell.swift in Sources */,
+				76DBA5C827C77F53006E6F8E /* JoinContestViewController.swift in Sources */,
 				76E30E4927C6693400A622CB /* homesearchTableViewCell.swift in Sources */,
 				766B5AF727C64EB800A72FB9 /* UITextView+Additions.swift in Sources */,
 				76E30E4727C668DB00A622CB /* HomeViewController.swift in Sources */,
 				766B5AE627C64EB800A72FB9 /* Globals.swift in Sources */,
+				76DBA5CB27C78791006E6F8E /* BuyticketViewController.swift in Sources */,
 				766B5AD827C64EB800A72FB9 /* CommonHelper.swift in Sources */,
 				766B5AF027C64EB800A72FB9 /* CameraViewController.swift in Sources */,
-				CE80D9B627C68740001D98AB /* HistoryVC.swift in Sources */,
+				76765A9A27C67DF200BD7E65 /* sizeCollectionViewCell.swift in Sources */,
 				766B5AE827C64EB800A72FB9 /* WebServiceDataParsingDelegate.swift in Sources */,
 				766B5AEA27C64EB800A72FB9 /* BadgedBarButtonItem.swift in Sources */,
 				766B5AE927C64EB800A72FB9 /* DatabaseRepresentation.swift in Sources */,
 				766B5ADB27C64EB800A72FB9 /* LanguageHelper.swift in Sources */,
 				766B5AEB27C64EB800A72FB9 /* UIImage+Additions.swift in Sources */,
+				76E698F127C79E430075FD18 /* discoverColectionTableViewCell.swift in Sources */,
 				766B5AD927C64EB800A72FB9 /* WebServicesHelper.swift in Sources */,
 				766B5AF227C64EB800A72FB9 /* UITexfield+Additions.swift in Sources */,
 				766B5AE427C64EB800A72FB9 /* Constant.swift in Sources */,
+				76765A9827C67DD300BD7E65 /* ColorsCollectionViewCell.swift in Sources */,
+				76026CAF27C7B45600C0947F /* HistoryViewController.swift in Sources */,
 				76E30E4F27C669C500A622CB /* homeCollectionViewCell.swift in Sources */,
 				76E30E5327C66B2B00A622CB /* homeHeader.swift in Sources */,
+				76026CB327C7B4CF00C0947F /* WonHistoryCollectionViewCell.swift in Sources */,
 				766B5AF127C64EB800A72FB9 /* Extensions.swift in Sources */,
 				766B5ADD27C64EB800A72FB9 /* DateTimeHelper.swift in Sources */,
 				766B59F027C62EFD00A72FB9 /* AppDelegate.swift in Sources */,
 				76E30E4D27C6699F00A622CB /* HomelikeTableViewCell.swift in Sources */,
-				CE80D9B927C6877E001D98AB /* WonHostVC.swift in Sources */,
 				766B5AF327C64EB800A72FB9 /* UIPopUp+Additions.swift in Sources */,
+				76E698F327C79EA20075FD18 /* upcommingCollectionViewCell.swift in Sources */,
 				766B5AFB27C6565500A72FB9 /* SignUpViewController.swift in Sources */,
+				76E698E627C78F300075FD18 /* QuizGameViewController.swift in Sources */,
 				766B5AE027C64EB800A72FB9 /* ViewControllerHelper.swift in Sources */,
+				76E698EA27C7915A0075FD18 /* answerTableViewCell.swift in Sources */,
+				76026CB127C7B49100C0947F /* historycellTableViewCell.swift in Sources */,
 				766B5ADF27C64EB800A72FB9 /* AsyncUtil.swift in Sources */,
 				766B59F227C62EFD00A72FB9 /* SceneDelegate.swift in Sources */,
+				76765AC327C68E7B00BD7E65 /* ContestViewController.swift in Sources */,
 				766B5AF627C64EB800A72FB9 /* AppStoryBoard.swift in Sources */,
 				766B5AD727C64EB800A72FB9 /* NVActivityIndicatorPresenter.swift in Sources */,
 				766B5AED27C64EB800A72FB9 /* UIViewController+Additions.swift in Sources */,
+				76026CA827C7B02F00C0947F /* discoverdetailTableViewCell.swift in Sources */,
+				76E698EF27C79DA80075FD18 /* discoverViewController.swift in Sources */,
 				76E30E4B27C6696C00A622CB /* homeCollectionTableViewCell.swift in Sources */,
+				76765A9527C679D400BD7E65 /* FilterViewController.swift in Sources */,
 				766B5AE727C64EB800A72FB9 /* WebServiceResponseDelegate.swift in Sources */,
 				766B5AEC27C64EB800A72FB9 /* UIView+Additions.swift in Sources */,
 				766B5AF427C64EB800A72FB9 /* UISearchBar+Additions.swift in Sources */,
+				76E698FB27C7A59C0075FD18 /* sideMenuTableViewCell.swift in Sources */,
 				766B5AEE27C64EB800A72FB9 /* NotificationExtension.swift in Sources */,
 				766B5AE527C64EB800A72FB9 /* Enums.swift in Sources */,
+				76E698E827C791220075FD18 /* QuestionsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -948,7 +1224,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -978,7 +1253,6 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -994,6 +1268,7 @@
 		};
 		766B5A1A27C62EFE00A72FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6E3D8D0D2B6BFB6CA81C16 /* Pods-StrikeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1014,6 +1289,7 @@
 		};
 		766B5A1B27C62EFE00A72FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3571E6589C1B8CACB103B8ED /* Pods-StrikeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1034,6 +1310,7 @@
 		};
 		766B5A1D27C62EFE00A72FB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14EC87175846F087BB570A03 /* Pods-Strike-StrikeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1052,6 +1329,7 @@
 		};
 		766B5A1E27C62EFE00A72FB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25B96CBAA4603636327029D2 /* Pods-Strike-StrikeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
