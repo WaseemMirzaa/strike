@@ -18,7 +18,6 @@ pod 'AlamofireImage'
 pod 'SwiftyJSON'
 
 #pod 'JGProgressHUD'
-pod 'Cosmos', '~> 23.0'
 
 
 pod 'NVActivityIndicatorView'
@@ -26,5 +25,21 @@ pod 'ReachabilitySwift'
 pod 'ChameleonFramework/Swift'
 
 pod 'iOSDropDown'
+
+
+
+
+
+
+
+
+  target 'StrikeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'StrikeUITests' do
+    # Pods for testing
+  end
 
 end

@@ -1565,7 +1565,7 @@ extension UIColor {
         case tfBorderColor
         case themeColor
         case theameColor
-        case txtColor
+        case bgCell
         case login
         case tabbar
         case yellowColor
@@ -1604,7 +1604,7 @@ extension UIColor {
         case .themeColor:
             return UIColor(named: name.rawValue)!
             
-        case .theameColor:
+        case .bgCell:
             return UIColor(named: name.rawValue)!
         case .login:
             return UIColor(named: name.rawValue)!

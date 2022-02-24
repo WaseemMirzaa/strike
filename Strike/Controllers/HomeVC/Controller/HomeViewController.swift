@@ -20,6 +20,8 @@ struct homearrayData{
     
 }
 import UIKit
+import LGSideMenuController
+
 
 class HomeViewController: UIViewController {
 
@@ -31,6 +33,15 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        sideMenuController?.leftViewWidth = self.view.bounds.width - self.view.bounds.width/4
+        sideMenuController?.rootViewCoverAlphaForLeftView = 0.9
+        sideMenuController?.rootViewLayerShadowRadius = 10.0
+        
+        sideMenuController?.leftViewSwipeGestureRange = .init(left: 0.0, right: 0.0)
+        
+        sideMenuController?.leftViewPresentationStyle = .slideAboveBlurred
+        sideMenuController?.leftViewAnimationDuration = 1.0
 
         self.onloadData()
         
@@ -39,10 +50,10 @@ class HomeViewController: UIViewController {
     
     
     func onloadDataSearch(){
-        
+        self.array.removeAll()
         var array12 = [homearrayData]()
         array12.append(homearrayData(name: "", image: nil))
-        self.array.append(homeData(section: "", arrayData: array12))
+        self.array.append(homeData(section: "S", arrayData: array12))
         
         var array2 = [homearrayData]()
         array2.append(homearrayData(name: "", image: nil))
@@ -58,7 +69,8 @@ class HomeViewController: UIViewController {
         self.array.append(homeData(section: "Products you may like", arrayData: array1))
         
         self.hometableView.reloadData()
-        
+        self.hometableView.reloadSections(NSIndexSet(index: 1) as IndexSet, with: .automatic)
+
         
         
     }
@@ -86,6 +98,9 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func menyubtn(_ sender: Any) {
+        
+        self.sideMenuController?.toggleLeftView(animated: true, completion: nil)
+
     }
     
     @IBAction func searchbtn(_ sender: Any) {
@@ -111,7 +126,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 
         
-        if self.array[section].section != ""{
+        if self.array[section].section != "S"{
             
             let headerView = Bundle.main.loadNibNamed("homeHeader", owner: self, options: nil)?.first as! homeHeader
             
@@ -128,7 +143,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
         
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        if self.array[section].section != ""{
+        if self.array[section].section != "S"{
             return 60
 
         }
@@ -192,11 +207,23 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource{
     }
     
     
-    
+    @objc func joinBtn(_ sender:UIButton){
+        
+        let vc:ContestViewController = self.storyboard?.instantiateViewController(withIdentifier: "ContestViewController") as! ContestViewController
+        
+        self.tabBarController?.navigationController?.pushViewController(vc, animated: true)
+        
+        
+    }
     
     @objc func SearchFilter(_ sender:UIButton){
         
+        let vc:FilterViewController = self.storyboard?.instantiateViewController(withIdentifier: "FilterViewController") as! FilterViewController
         
+        vc.modalTransitionStyle = .coverVertical
+        vc.modalPresentationStyle = .overCurrentContext
+        
+        self.tabBarController?.present(vc, animated: true, completion: nil)
         
         
     }
@@ -210,6 +237,8 @@ extension HomeViewController:UICollectionViewDelegate,UICollectionViewDataSource
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "homeCollectionViewCell", for: indexPath) as! homeCollectionViewCell
+        
+        cell.btnconetst.addTarget(self, action: #selector(joinBtn), for: .touchUpInside)
         
         return cell
         

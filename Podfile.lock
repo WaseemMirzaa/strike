@@ -10,7 +10,6 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - Cosmos (23.0.0)
   - GoogleSignIn (6.1.0):
     - AppAuth (~> 1.4)
     - GTMAppAuth (~> 1.0)
@@ -32,7 +31,6 @@ DEPENDENCIES:
   - Alamofire
   - AlamofireImage
   - ChameleonFramework/Swift
-  - Cosmos (~> 23.0)
   - GoogleSignIn
   - iOSDropDown
   - IQKeyboardManagerSwift
@@ -47,7 +45,6 @@ SPEC REPOS:
     - AlamofireImage
     - AppAuth
     - ChameleonFramework
-    - Cosmos
     - GoogleSignIn
     - GTMAppAuth
     - GTMSessionFetcher
@@ -63,7 +60,6 @@ SPEC CHECKSUMS:
   AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
   GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
   GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
@@ -74,6 +70,6 @@ SPEC CHECKSUMS:
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: aa0ab1aef30cb0893b8d3d7c8e6e76df309a3de7
+PODFILE CHECKSUM: 0b89442757a38e1ab3b569815d9f49cc2ac1a84e
 
 COCOAPODS: 1.11.2
